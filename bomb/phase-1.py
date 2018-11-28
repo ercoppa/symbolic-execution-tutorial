@@ -6,9 +6,9 @@ import time
 
 proj = angr.Project('bomb.exe')
 
-start = 0x401190 # initial state is at the beginning of phase_one()
-avoid = [0x401960]
-end = [0x4011AD]
+start = XXX
+avoid = [YYY]
+end = [ZZZ]
 
 state = proj.factory.blank_state(addr=start)
 
