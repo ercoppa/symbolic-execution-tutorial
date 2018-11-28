@@ -1,0 +1,19 @@
+biar@pfp-VirtualBox:~/Desktop/angr$ python solve-example.py 
+WARNING | 2018-11-26 14:31:21,834 | angr.analyses.disassembly_utils | Your version of capstone does not support MIPS instruction groups.
+<SimulationManager with 1 active>
+<SimulationManager with 2 active>
+<SimulationManager with 3 active>
+<SimulationManager with 3 active, 1 avoid>
+
+Reached the target
+
+%edi = [2L, 2147483650L]
+%esi = [0]
+
+biar@pfp-VirtualBox:~/Desktop/angr$ ./example 2 2147483650
+biar@pfp-VirtualBox:~/Desktop/angr$ ./example 2 0
+example: example.c:12: foobar: Assertion `x-y != 0' failed.
+Aborted
+biar@pfp-VirtualBox:~/Desktop/angr$ ./example 2147483650 0
+example: example.c:12: foobar: Assertion `x-y != 0' failed.
+Aborted
