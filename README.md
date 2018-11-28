@@ -17,7 +17,7 @@ python2 -m pip install --user angr
 
 ### Slide example
 
-You can find the souce code, binary (x86_64) and an angr script in the `slide-example` directory. `solve-example.py` must be customized, replacing {XXX, YYY, ZZZ} placeholders.
+You can find the souce code, binary (Linux x86_64) and an angr script in the `slide-example` directory. `solve-example.py` ***must*** be customized, replacing {XXX, YYY, ZZZ} placeholders.
 
 ### Logic bomb
 
