@@ -11,7 +11,7 @@ Download slides (revision: 2018-11-29): [PDF](symbolic-execution.pdf)
 ### Install angr on VM BIAR 1.6.5
 
 ```
-python2 -m pip install --user -U pip
+python2 -m pip install --upgrade --user pip
 python2 -m pip install --user angr
 ```
 
