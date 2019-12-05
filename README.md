@@ -8,16 +8,13 @@ Download slides (revision: 2018-11-29): [PDF](symbolic-execution.pdf)
 
 ## Hands-on
 
-### Install angr on VM BIAR 1.6.5
+### Setup
 
-```
-python2 -m pip install --upgrade --user pip
-python2 -m pip install --user angr
-```
+See [setup/README.md](setup/README.md).
 
 ### Slide example
 
-You can find the souce code, binary (Linux x86_64) and an angr script in the `slide-example` directory. `solve-example.py` ***must*** be customized, replacing {XXX, YYY, ZZZ} placeholders.
+You can find the source code, binary (Linux x86_64) and an angr script in the `slide-example` directory. `solve-example.py` ***must*** be customized, replacing {XXX, YYY, ZZZ} placeholders.
 
 ### Logic bomb
 
